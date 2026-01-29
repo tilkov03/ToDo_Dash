@@ -68,3 +68,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+button {
+  color: black;
+}
+
+input[type="checkbox"] {
+  accent-color: black;
+}

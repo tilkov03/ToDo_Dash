@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://jsonplaceholder.typicode.com",
+  baseURL: "http://localhost", // fake base, няма да прави реални HTTP заявки
 });
